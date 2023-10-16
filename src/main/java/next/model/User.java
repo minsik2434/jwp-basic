@@ -29,6 +29,12 @@ public class User {
         return email;
     }
 
+    // public void update(User updateuser){
+    //     this.password = updateuser.password;
+    //     this.name = updateuser.name;
+    //     this.email = updateuser.email;
+    // }
+
     @Override
     public int hashCode() {
         final int prime = 31;
